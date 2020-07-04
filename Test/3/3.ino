@@ -10,8 +10,8 @@ void setup()
   digitalWrite (in1,LOW);//ทวนเข้ม
   digitalWrite (in2,HIGH);
   Serial.begin(9600);
-  Serial.println("Turn CW");
-  delay(3000);
+  Serial.println("Turn CCW");
+  delay(2000);
   analogWrite (ena,0);
   digitalWrite (in1,LOW);
   digitalWrite (in2,HIGH);
